@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="nl-BE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali Benacher Portfolio</title>
+    <linkrel="icon"href="../assets/images/logoZonderNaam.png"type="image/x-icon"/>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+    <script src="../js/header.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <figure class="logo">
+        <a href="./index.html"><imgsrc="../assets/images/logoZonderNaam.png"alt=""width="70"height="70"/></a>
+      </figure>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contact-main">
+      <section class="contact-form">
+        <form>
+          <label for="name">Naam:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Jouw naam"
+            required
+          />
+
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Jouw e-mail"
+            required
+          />
+
+          <label for="onderwerp">Onderwerp:</label>
+          <input
+            type="text"
+            id="onderwerp"
+            name="onderwerp"
+            placeholder="Het onderwerp"
+            required
+          />
+
+          <label for="message">Bericht:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Jouw bericht"
+            required
+          ></textarea>
+
+          <button class="button" type="submit">Verzend</button>
+        </form>
+      </section>
+
+      <aside id="contact-aside">
+        <section id="leafMap"></section>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <p>Copyright &copy; • 2026</p>
+      <a href="#layout-wrapper" class="backToTop">Back to top</a>
+    </footer>
+  </body>
+</html>
